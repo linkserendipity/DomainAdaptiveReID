@@ -267,7 +267,7 @@ if __name__ == '__main__':
                         help="learning rate of all parameters")
     # training configs
     parser.add_argument('--resume', type=str, metavar='PATH',
-                        default = '')
+                        default='')
     parser.add_argument('--evaluate', type=int, default=0,
                         help="evaluation only")
     parser.add_argument('--seed', type=int, default=1)
